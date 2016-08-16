@@ -488,7 +488,7 @@
   <project path="device/xiaomi/ido" name="TeamWin/android_device_xiaomi_ido" remote="github" revision="android-5.1" />
   <project path="vendor/xiaomi/ido" name="WinKarbik/android_vendor_xiaomi_ido" remote="github" revision="cm-13.0" />
   <project path="vendor/xiaomi" name="dinphy-dev/pac_proprietary_vendor_xiaomi_ido" remote="github" revision="pac" />
-  <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" remote="omnirom" revision="android-6.0" groups="pdk"  />
+  <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" remote="github" revision="cm-13.0" groups="pdk"  />
   <project path="external/stlport" name="android_external_stlport" remote="omnirom" revision="android-6.0" groups="pdk"  />
   <project path="device/qcom/common" name="android_device_qcom_common" remote="omnirom" revision="android-6.0" groups="pdk"  />
 <!-- END Device -->
