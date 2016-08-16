@@ -484,7 +484,7 @@
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-6.0" />
 
 <!-- Start Device -->
-  <project path="bootable/recovery-twrp" name="cofface/android_bootable_recovery-twrp" revision="cofface-6.0" groups="pdk" />
+  <project path="bootable/recovery-twrp" name="cofface/android_bootable_recovery-twrp" remote="github" revision="cofface-6.0" groups="pdk" />
   <project path="device/xiaomi/ido" name="TeamWin/android_device_xiaomi_ido" remote="github" revision="android-5.1" />
   <project path="vendor/xiaomi/ido" name="WinKarbik/android_vendor_xiaomi_ido" remote="github" revision="cm-13.0" />
   <project path="vendor/xiaomi" name="dinphy-dev/pac_proprietary_vendor_xiaomi_ido" remote="github" revision="pac" />
