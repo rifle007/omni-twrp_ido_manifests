@@ -8,7 +8,7 @@
            fetch="https://github.com/" />
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com"
+           fetch="https://aosp.tuna.tsinghua.edu.cn"
            review="android-review.googlesource.com" />
 
   <remote  name="omnirom"
@@ -34,7 +34,7 @@
 
   <project path="bootable/recovery" name="xiaolu/android_bootable_recovery-twrp" remote="github" revision="xiaolu-android-6.0" groups="pdk-cw-fs"/>
 
-  <project path="device/exynos/common" name="android_device_exynos_common" remote="TeamWin" revision="android-6.0" />
+  <project path="device/exynos/common" name="android_device_samsung_exynos_common" remote="TeamWin" revision="android-6.0" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
   <project path="device/qcom/common" name="lj50036/android_device_qcom_common" remote="github" revision="cm-13.0" />
 
@@ -107,7 +107,7 @@
   <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-6.0" />
 
 <!-- Start Device -->
-  <project path="device/xiaomi/ido" name="dinphy-dev/omni-twrp_device_xiaomi_ido" remote="github" revision="android-6.0" groups="pdk" />
+  <project path="device/xiaomi/ido" name="dinphy-dev/omni-twrp_device_xiaomi_ido" remote="github" revision="twrp-6.0" groups="pdk" />
   <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" remote="github" revision="cm-13.0" groups="pdk"  />
   <project path="external/stlport" name="omnirom/android_external_stlport" remote="github" revision="android-6.0" groups="pdk"  />
 <!-- END Device -->
